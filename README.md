@@ -1,5 +1,3 @@
-# Vue 3 Notes
+# Readme
 
-## Things to take care of:
-
-- Scoped styles
+## Vue.js Based Users/Personnel Application
