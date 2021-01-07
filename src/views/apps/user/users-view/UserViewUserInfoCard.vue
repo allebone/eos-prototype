@@ -1,5 +1,5 @@
 <template>
-  <b-card>
+  <b-card class="border-primary">
 
     <b-row>
 
@@ -15,8 +15,8 @@
             :src="userData.avatar"
             :text="avatarText(userData.fullName)"
             :variant="`light-${resolveUserRoleVariant(userData.role)}`"
-            size="104px"
-            rounded
+            size="124px"
+            
           />
           <div class="d-flex flex-column ml-1">
             <div class="mb-1">

@@ -40,12 +40,7 @@
           <b-card-title
             class="mb-1 font-weight-bold"
             title-tag="h2"
-          >
-<<<<<<< HEAD
-            Welcome to Enterprise Operartions System (EOS)! 👋
-=======
-            Welcome to the Enterprise Operations System (EOS)! 👋
->>>>>>> e35579e531e559e333a5e40fc734ec4a5c28117d
+          > Welcome to the Enterprise Operations System (EOS)! 👋
           </b-card-title>
           <b-card-text class="mb-2">
             Please sign-in to your account and start the adventure!
