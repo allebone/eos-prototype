@@ -13,6 +13,11 @@ export default [
         route: 'dashboard-analytics',
         icon: 'ActivityIcon',
       },
+      {
+	title: 'Readiness Assessment',
+	route: 'dashboard-readiness',
+	icon: 'ActivityIcon',
+      },
     ],
   },
 ]
