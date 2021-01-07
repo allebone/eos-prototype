@@ -5,19 +5,20 @@
     class="card-statistics"
   >
     <b-card-header>
-      <b-card-title>Mobile Program Statistics</b-card-title>
+      <b-card-title>Readiness Assessments</b-card-title>
       <b-card-text class="font-small-2 mr-25 mb-0">
         Updated 1 Week Ago
       </b-card-text>
     </b-card-header>
-    <b-card-body class="statistics-body">
-      <b-row>
+    <b-card-body class="statistics-body" align="center">
+      <b-row align="center">
         <b-col
           v-for="item in data"
           :key="item.icon"
           xl="1"
           sm="3"
           :class="item.customClass"
+	  align="center"
         >
           <b-media no-body>
             <b-media-aside
