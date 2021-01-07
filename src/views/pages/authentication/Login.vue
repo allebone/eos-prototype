@@ -41,7 +41,11 @@
             class="mb-1 font-weight-bold"
             title-tag="h2"
           >
+<<<<<<< HEAD
             Welcome to Enterprise Operartions System (EOS)! 👋
+=======
+            Welcome to the Enterprise Operations System (EOS)! 👋
+>>>>>>> e35579e531e559e333a5e40fc734ec4a5c28117d
           </b-card-title>
           <b-card-text class="mb-2">
             Please sign-in to your account and start the adventure!
@@ -160,13 +164,6 @@
               </b-button>
             </b-form>
           </validation-observer>
-
-          <b-card-text class="text-center mt-2">
-            <span>New on our platform? </span>
-            <b-link :to="{name:'auth-register'}">
-              <span>&nbsp;Create an account</span>
-            </b-link>
-          </b-card-text>
 
           <!-- divider -->
           <div class="divider my-2">
