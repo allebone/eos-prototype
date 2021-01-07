@@ -9,7 +9,7 @@ export const $themeBreakpoints = {}
 // APP CONFIG
 export const $themeConfig = {
   app: {
-    appName: 'EOS',
+    appName: 'EOS-Demo',
     // eslint-disable-next-line global-require
     appLogoImage: require('@/assets/images/logo/logo.svg'),
   },
@@ -17,11 +17,11 @@ export const $themeConfig = {
     isRTL: false,
     skin: 'dark', // light, dark, bordered, semi-dark
     routerTransition: 'zoom-fade', // zoom-fade, slide-fade, fade-bottom, fade, zoom-out, none
-    type: 'vertical', // vertical, horizontal
+    type: 'horizontal', // vertical, horizontal
     contentWidth: 'full', // full, boxed
     menu: {
       hidden: false,
-      isCollapsed: true,
+      isCollapsed: false,
     },
     navbar: {
       // ? For horizontal menu, navbar type will work for navMenu type
@@ -29,7 +29,7 @@ export const $themeConfig = {
       backgroundColor: '', // BS color options [primary, success, etc]
     },
     footer: {
-      type: 'sticky', // static, sticky, hidden
+      type: 'static', // static, sticky, hidden
     },
     customizer: false,
     enableScrollToTop: true,

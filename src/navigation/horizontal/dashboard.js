@@ -1,6 +1,6 @@
 export default [
   {
-    header: 'Dashboards',
+    header: 'Home',
     icon: 'HomeIcon',
     children: [
       {

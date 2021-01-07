@@ -140,7 +140,7 @@ export const codeCustomContent = `
         <template #aside>
           <b-avatar :src="require('@/assets/images/avatars/12-small.png')" />
         </template>
-        <h6>John Doe (Client)</h6>
+        <h6>Bryan Allebone (Client)</h6>
         <p>CEO of Infibeam</p>
       </b-media>
     </app-timeline-item>
@@ -385,7 +385,7 @@ export const codeCustomContentWithIcon = `
         <template #aside>
           <b-avatar :src="require('@/assets/images/avatars/12-small.png')" />
         </template>
-        <h6>John Doe (Client)</h6>
+        <h6>Bryan Allebone (Client)</h6>
         <p>CEO of Infibeam</p>
       </b-media>
     </app-timeline-item>

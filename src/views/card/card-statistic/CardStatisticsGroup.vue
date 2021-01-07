@@ -4,7 +4,7 @@
     class="card-statistics"
   >
     <b-card-header>
-      <b-card-title>Statistics</b-card-title>
+      <b-card-title>Program Statistics</b-card-title>
       <b-card-text class="mr-25 mb-0">
         Updated 1 month ago
       </b-card-text>

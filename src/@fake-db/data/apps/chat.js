@@ -8,7 +8,7 @@ const data = {
   profileUser: {
     id: 11,
     avatar: require('@/assets/images/avatars/8.png'),
-    fullName: 'John Doe',
+    fullName: 'Bryan Allebone',
     role: 'admin',
     about:
       'Dessert chocolate cake lemon drops jujubes. Biscuit cupcake ice cream bear claw brownie brownie marshmallow.',

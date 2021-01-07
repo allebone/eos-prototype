@@ -227,7 +227,7 @@ const data = {
           { img: require('@/assets/images/portrait/small/avatar-s-5.jpg'), username: 'Carissa Dolle' },
           { img: require('@/assets/images/portrait/small/avatar-s-9.jpg'), username: 'Kelle Herrick' },
           { img: require('@/assets/images/portrait/small/avatar-s-10.jpg'), username: 'Len Bregantini' },
-          { img: require('@/assets/images/portrait/small/avatar-s-11.jpg'), username: 'John Doe' },
+          { img: require('@/assets/images/portrait/small/avatar-s-11.jpg'), username: 'Bryan Allebone' },
         ],
       },
       {

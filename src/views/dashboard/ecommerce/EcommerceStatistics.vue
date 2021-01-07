@@ -5,9 +5,9 @@
     class="card-statistics"
   >
     <b-card-header>
-      <b-card-title>Statistics</b-card-title>
+      <b-card-title>Mobile Program Statistics</b-card-title>
       <b-card-text class="font-small-2 mr-25 mb-0">
-        Updated 1 month ago
+        Updated 1 Week Ago
       </b-card-text>
     </b-card-header>
     <b-card-body class="statistics-body">
@@ -15,8 +15,8 @@
         <b-col
           v-for="item in data"
           :key="item.icon"
-          xl="3"
-          sm="6"
+          xl="1"
+          sm="3"
           :class="item.customClass"
         >
           <b-media no-body>
@@ -25,19 +25,19 @@
               class="mr-2"
             >
               <b-avatar
-                size="48"
+                size="52"
                 :variant="item.color"
               >
                 <feather-icon
-                  size="24"
+                  size="36"
                   :icon="item.icon"
                 />
               </b-avatar>
             </b-media-aside>
             <b-media-body class="my-auto">
-              <h4 class="font-weight-bolder mb-0">
+              <h3 class="font-weight-bolder mb-0">
                 {{ item.title }}
-              </h4>
+              </h3>
               <b-card-text class="font-small-3 mb-0">
                 {{ item.subtitle }}
               </b-card-text>
