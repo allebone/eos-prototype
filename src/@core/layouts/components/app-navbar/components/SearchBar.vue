@@ -27,7 +27,7 @@
       <b-form-input
         v-if="showSearchBar"
         v-model="searchQuery"
-        placeholder="Search EOS"
+        placeholder="Explore Vuexy"
         autofocus
         autocomplete="off"
         @keyup.up="increaseIndex(false)"
