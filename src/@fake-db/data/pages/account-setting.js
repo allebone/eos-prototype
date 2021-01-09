@@ -4,10 +4,10 @@ const data = {
   accountSetting: {
     general: {
       avatar: require('@/assets/images/portrait/small/avatar-s-11.jpg'),
-      username: 'bealleb',
-      fullName: 'Bryan Allebone',
-      email: 'bryan.allebone@gmail.com',
-      company: 'Project BOCKSCAR',
+      username: 'johndoe',
+      fullName: 'John Doe',
+      email: 'granger007@hogward.com',
+      company: 'Crystal Technologies',
     },
     info: {
       bio: '',
@@ -28,7 +28,7 @@ const data = {
       connections: {
         twitter: {
           profileImg: require('@/assets/images/avatars/11-small.png'),
-          id: 'bealleb',
+          id: 'johndoe',
         },
         google: {
           profileImg: require('@/assets/images/avatars/3-small.png'),
