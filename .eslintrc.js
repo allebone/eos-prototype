@@ -11,7 +11,13 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-
+    'import/extensions': ['error', 'ignorePackages', {
+      js: 'never',
+      mjs: 'never',
+      jsx: 'never',
+      ts: 'never',
+      tsx: 'never',
+    }],
     // Best Practices
     'eqeqeq': 'error',
     'no-invalid-this': 'error',
@@ -38,7 +44,6 @@ module.exports = {
     'import/imports-first': 0,
     'import/first': 0,
     'import/order': [0, {"groups": ["index", "sibling", "parent", "internal", "external", "builtin", "object"]}],
-    'import/extensions':0,
     'import/import-order': 0,
     'import/newline-after-import': 0,
     'import/no-dynamic-require': 0,
