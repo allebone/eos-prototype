@@ -37,7 +37,7 @@ module.exports = {
     'implicit-arrow-linebreak': ['error', 'beside'],
     'import/imports-first': 0,
     'import/first': 0,
-    'import/order': ["error", {"groups": ["index", "sibling", "parent", "internal", "external", "builtin", "object"]}],
+    'import/order': [ 0, {"groups": ["index", "sibling", "parent", "internal", "external", "builtin", "object"]}],
     'import/extensions':0,
     'import/import-order': 0,
     'import/newline-after-import': 0,
