@@ -5,3 +5,7 @@
 ./tailwind-v0.js
 ./docs/*
 ./node_modules/*
+./src/@fake-db/db.js
+./src/views/pages/account-setting/AccountSettingInformation.vue
+./src/views/forms/form-element/form-input-mask/FormInputMask.vue
+./src/@core/layouts/layout-horizontal/LayoutHorizontal.vue
