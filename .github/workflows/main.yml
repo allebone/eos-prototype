@@ -23,12 +23,17 @@ jobs:
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
       - uses: actions/checkout@v2
-      - name: Build 
+      - name: Setup Node Environment 
         uses: actions/setup-node@v2
+      
+      - name: Install Dependencies
+        run: npm install
+      
+      - name: Vue-CLI Lint
+        run: npm run lint
         
-      - run: |
-          npm install
-          npm run build
+      - name: Vue-CLI Build
+        run: npm run build
           
       - name: Deploy 🚀
         uses: JamesIves/github-pages-deploy-action@3.7.1
