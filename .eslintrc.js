@@ -25,8 +25,8 @@ module.exports = {
     'no-use-before-define': 'error',
 
     // Stylistic Issues
-    'array-bracket-newline': ['error', { 'multiline': true, 'minItems': null }],
-    'array-bracket-spacing': 'error',
+    'array-bracket-newline': 0,
+    'array-bracket-spacing': 0,
     'brace-style': ["error", "1tbs", { "allowSingleLine": true }],
     'block-spacing': 'error',
     'comma-dangle': 0,
@@ -38,6 +38,7 @@ module.exports = {
     'import/imports-first': 0,
     'import/first': 0,
     'import/order': 0,
+    'import-order': 0,
     'import/newline-after-import': 0,
     'import/no-dynamic-require': 0,
     'import/no-extraneous-dependencies': 0,
@@ -60,7 +61,7 @@ module.exports = {
     'semi': ['error', 'never'],
     'semi-spacing': 'error',
     'space-before-blocks': 'error',
-    'space-before-function-paren': 'error',
+    'space-before-function-paren': 0,
     'space-in-parens': 'error',
     'space-infix-ops': 'error',
     'space-unary-ops': 'error',
