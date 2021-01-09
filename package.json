@@ -80,5 +80,5 @@
     "sass-loader": "^10.1.0",
     "vue-template-compiler": "^2.6.11"
   },
-  "eslintIgnore": ["src/@fake-db/", "src/@core/"]
+  "eslintIgnore": ["./src/@fake-db", "./src/@core"]
 }
