@@ -18,7 +18,7 @@
           xl="1"
           sm="3"
           :class="item.customClass"
-	  align="center"
+          align="center"
         >
           <b-media no-body>
             <b-media-aside
