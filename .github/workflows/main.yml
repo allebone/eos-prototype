@@ -28,9 +28,6 @@ jobs:
       
       - name: Install Dependencies
         run: npm install
-      
-      - name: Vue-CLI Lint
-        run: npm run lint
         
       - name: Vue-CLI Build
         run: npm run build
