@@ -22,8 +22,8 @@ jobs:
 
     # Steps represent a sequence of tasks that will be executed as part of the job
     steps:
-      - name: Build 
       - uses: actions/checkout@v2
+      - name: Build 
         run: |
           npm install @vue/cli@latest
           npm run build
