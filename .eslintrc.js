@@ -17,6 +17,7 @@ module.exports = {
       jsx: 'never',
       ts: 'never',
       tsx: 'never',
+      vue: 'never',
     }],
     // Best Practices
     'eqeqeq': 'error',
