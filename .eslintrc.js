@@ -86,8 +86,17 @@ module.exports = {
     // Vue
     "vue/html-quotes": ["error", "double"]
   },
+  
   parserOptions: {
     parser: 'babel-eslint',
     sourceType: 'module'
   },
+  
+  settings: {
+     'import/resolver': {		  
+       node: {extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.vue'],},
+       }
+       },
+   },  
+  
 }
