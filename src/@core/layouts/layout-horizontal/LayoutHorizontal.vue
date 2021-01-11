@@ -116,7 +116,7 @@ import useLayoutHorizontal from './useLayoutHorizontal'
 import HorizontalNavMenu from './components/horizontal-nav-menu/HorizontalNavMenu.vue'
 
 // Vertical Menu
-/*eslint-disable import/order */
+/* eslint-disable import/order */
 import VerticalNavMenu from '@core/layouts/layout-vertical/components/vertical-nav-menu/VerticalNavMenu.vue'
 import useVerticalLayout from '@core/layouts/layout-vertical/useVerticalLayout'
 import mixinLayoutHorizontal from './mixinLayoutHorizontal'

@@ -14,9 +14,9 @@ export default [
         icon: 'ActivityIcon',
       },
       {
-	title: 'Readiness Assessment',
-	route: 'dashboard-readiness',
-	icon: 'ActivityIcon',
+        title: 'Readiness Assessment',
+        route: 'dashboard-readiness',
+        icon: 'ActivityIcon',
       },
     ],
   },
