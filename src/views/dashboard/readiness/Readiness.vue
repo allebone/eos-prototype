@@ -1,9 +1,7 @@
 <template>
   <section id="dashboard-readiness">
     <b-row class="match-height">
-      <b-col 
-      align="center"
-      >
+      <b-col align="center">
         <ecommerce-statistics :data="data.statisticsItems" />
       </b-col>
     </b-row>
