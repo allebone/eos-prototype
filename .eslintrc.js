@@ -92,11 +92,23 @@ module.exports = {
     sourceType: 'module'
   },
   
-  settings: {
-     'import/resolver': {		  
-       node: {extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.vue'],},
-       }
-       },
-   },  
-  
+  "settings": {
+    "import/resolver": {
+        "node": {
+          extensions: ['.js', '.jsx', '.ts', '.tsx', '.json', '.vue'],
+            "paths": [
+                "src",
+            ],
+        },
+    },
+},
+
+"overrides": [
+    {
+        "files": "scripts/**",
+        "rules": {
+            "no-console": "off",
+        },
+    },
+],
 }
