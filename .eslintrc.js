@@ -11,13 +11,7 @@ module.exports = {
   rules: {
     'no-console': process.env.NODE_ENV === 'production' ? 'error' : 'off',
     'no-debugger': process.env.NODE_ENV === 'production' ? 'error' : 'off',
-    'import/extensions': ['error', 'ignorePackages', {
-      js: 'never',
-      mjs: 'never',
-      jsx: 'never',
-      ts: 'never',
-      tsx: 'never',
-      vue: 'never',
+  
     }],
     // Best Practices
     'eqeqeq': 'error',
@@ -103,12 +97,4 @@ module.exports = {
     },
 },
 
-"overrides": [
-    {
-        "files": "scripts/**",
-        "rules": {
-            "no-console": "off",
-        },
-    },
-],
 }
