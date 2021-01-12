@@ -16,8 +16,7 @@ export default [
       {
         title: 'Readiness Assessment',
         route: 'dashboard-readiness',
-      }
-    },
+      },
     ],
   },
 ]
