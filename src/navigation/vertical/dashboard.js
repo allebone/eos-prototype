@@ -2,7 +2,7 @@ export default [
   {
     title: 'Home',
     icon: 'HomeIcon',
-    tag: '3',
+    tag: '2',
     tagVariant: 'light-warning',
     header: 'Dashboards',
     children: [
@@ -22,5 +22,5 @@ export default [
         icon: 'ActivityIcon',
       },
     ],
-  },
+  }
 ]
