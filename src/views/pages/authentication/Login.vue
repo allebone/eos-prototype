@@ -5,9 +5,7 @@
       <!-- Brand logo-->
       <b-link class="brand-logo">
         <vuexy-logo />
-        <h2 class="brand-text text-primary ml-1">
-          EOS
-        </h2>
+        <h2 class="brand-text text-primary ml-1">EOS</h2>
       </b-link>
       <!-- /Brand logo-->
 
@@ -162,8 +160,7 @@
           </validation-observer>
 
           <!-- divider -->
-          <div class="divider my-2">
-          </div>
+          <div class="divider my-2"></div>
 
         </b-col>
       </b-col>

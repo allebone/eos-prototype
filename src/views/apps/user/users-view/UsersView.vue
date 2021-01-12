@@ -24,8 +24,7 @@
     <template v-if="userData">
       <!-- First Row -->
       <b-row>
-        <b-col
-        >
+        <b-col>
           <user-view-user-info-card :user-data="userData" />
         </b-col>
       </b-row>

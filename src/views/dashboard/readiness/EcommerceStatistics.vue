@@ -10,7 +10,7 @@
         Updated 1 Week Ago
       </b-card-text>
     </b-card-header>
-    <b-card-body class="statistics-body" align="center">
+    <b-card-body class="statistics-body">
       <b-row align="center">
         <b-col
           v-for="item in data"
