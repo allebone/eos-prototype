@@ -5,7 +5,6 @@ export default [
     tag: '3',
     tagVariant: 'light-warning',
     header: 'Dashboards',
-    icon: 'HomeIcon',
     children: [
       {
         title: 'Mobile Program',
