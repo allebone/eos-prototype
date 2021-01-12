@@ -163,7 +163,6 @@
 
           <!-- divider -->
           <div class="divider my-2">
-            
           </div>
 
         </b-col>
