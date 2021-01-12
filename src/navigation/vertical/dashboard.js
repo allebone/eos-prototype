@@ -6,13 +6,16 @@ export default [
     tagVariant: 'light-warning',
     children: [
       {
-        title: 'eCommerce',
+        title: 'Mobile Program',
         route: 'dashboard-ecommerce',
       },
       {
-        title: 'Analytics',
+        title: 'OMNI Analytics',
         route: 'dashboard-analytics',
       },
+        title: 'Readiness Assessment',
+        route: 'dashboard-readiness',
+    },
     ],
   },
 ]
