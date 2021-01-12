@@ -13,8 +13,10 @@ export default [
         title: 'OMNI Analytics',
         route: 'dashboard-analytics',
       },
+      {
         title: 'Readiness Assessment',
         route: 'dashboard-readiness',
+      }
     },
     ],
   },
