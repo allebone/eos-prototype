@@ -14,4 +14,9 @@ export default [
     name: 'dashboard-readiness',
     component: () => import('@/views/dashboard/readiness/Readiness.vue'),
   },
+  {
+    path: '/dashboard/personal',
+    name: 'dashboard-personal',
+    component: () => import('@/views/dashboard/personal/Personal.vue'),
+  },
 ]

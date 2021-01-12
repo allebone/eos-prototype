@@ -2,9 +2,13 @@ export default [
   {
     title: 'Dashboards',
     icon: 'HomeIcon',
-    tag: '2',
+    tag: '4',
     tagVariant: 'light-warning',
     children: [
+      {
+        title: 'Personal',
+        route: 'dashboard-personal',
+      },
       {
         title: 'Mobile Program',
         route: 'dashboard-ecommerce',
