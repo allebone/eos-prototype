@@ -4,6 +4,11 @@ export default [
     icon: 'HomeIcon',
     children: [
       {
+        title: 'Personal',
+        route: 'dashboard-personal',
+        icon: 'TabletIcon',
+      },
+      {
         title: 'Mobile Program',
         route: 'dashboard-ecommerce',
         icon: 'TabletIcon',
