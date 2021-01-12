@@ -1,14 +1,22 @@
 export default [
   {
-    title: 'Home',
+    header: 'Dashboards',
     icon: 'HomeIcon',
-    tag: '2',
-    tagVariant: 'light-warning',
     children: [
       {
-        title: 'eCommerce',
+        title: 'Mobile Program',
         route: 'dashboard-ecommerce',
+        icon: 'TabletIcon',
+      },
+      {
+        title: 'OMNI Analytics',
+        route: 'dashboard-analytics',
+        icon: 'ActivityIcon',
+      },
+      {
+        title: 'Readiness Assessment',
+        route: 'dashboard-readiness',
+        icon: 'ActivityIcon',
       },
     ],
-  },
 ]
