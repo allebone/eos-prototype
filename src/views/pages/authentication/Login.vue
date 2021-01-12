@@ -162,8 +162,7 @@
           </validation-observer>
 
           <!-- divider -->
-          <div class="divider my-2">
-          </div>
+          <div class="divider my-2"/>
 
         </b-col>
       </b-col>
