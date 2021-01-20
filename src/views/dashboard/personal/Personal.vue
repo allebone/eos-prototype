@@ -35,11 +35,8 @@
         <analytics-support-tracker :data="data.supportTracker" />
       </b-col>
     </b-row>
-    
   </section>
 </template>
-
-
 
 <script>
 import { BRow, BCol } from 'bootstrap-vue'
@@ -60,7 +57,7 @@ export default {
     BCol,
     AnalyticsCongratulation,
     AnalyticsAvgSessions,
-    StatisticCardWithAreaChart,
+    // StatisticCardWithAreaChart,
     AnalyticsSupportTracker,
     AnalyticsTimeline,
     AnalyticsSalesRadarChart,
