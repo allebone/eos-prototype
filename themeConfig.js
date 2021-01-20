@@ -11,13 +11,13 @@ export const $themeConfig = {
   app: {
     appName: 'EOS',
     // eslint-disable-next-line global-require
-    appLogoImage: require('@/assets/images/logo/logo.svg'),
+    // appLogoImage: require('@/assets/images/logo/logo.svg'),
   },
   layout: {
     isRTL: false,
     skin: 'dark', // light, dark, bordered, semi-dark
     routerTransition: 'zoom-fade', // zoom-fade, slide-fade, fade-bottom, fade, zoom-out, none
-    type: 'horizontal', // vertical, horizontal
+    type: 'vertical', // vertical, horizontal
     contentWidth: 'full', // full, boxed
     menu: {
       hidden: false,
@@ -31,7 +31,7 @@ export const $themeConfig = {
     footer: {
       type: 'static', // static, sticky, hidden
     },
-    customizer: true,
+    customizer: false,
     enableScrollToTop: true,
   },
 }
