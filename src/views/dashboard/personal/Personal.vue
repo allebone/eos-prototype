@@ -7,40 +7,6 @@
       >
         <analytics-congratulation :data="data.congratulations" />
       </b-col>
-      <b-col
-        lg="3"
-        sm="6"
-      >
-        <statistic-card-with-area-chart
-          v-if="data.subscribersGained"
-          icon="UsersIcon"
-          :statistic="kFormatter(data.subscribersGained.analyticsData.subscribers)"
-          statistic-title="Subscribers Gained"
-          :chart-data="data.subscribersGained.series"
-        />
-      </b-col>
-      <b-col
-        lg="3"
-        sm="6"
-      >
-        <statistic-card-with-area-chart
-          v-if="data.ordersRecevied"
-          icon="PackageIcon"
-          color="warning"
-          :statistic="kFormatter(data.ordersRecevied.analyticsData.orders)"
-          statistic-title="Orders Received"
-          :chart-data="data.ordersRecevied.series"
-        />
-      </b-col>
-    </b-row>
-
-    <b-row class="match-height">
-      <b-col lg="6">
-        <analytics-avg-sessions :data="data.avgSessions" />
-      </b-col>
-      <b-col lg="6">
-        <analytics-support-tracker :data="data.supportTracker" />
-      </b-col>
     </b-row>
 
     <b-row class="match-height">
@@ -60,8 +26,20 @@
         <invoice-list />
       </b-col>
     </b-row>
+
+    <b-row class="match-height">
+      <b-col lg="6">
+        <analytics-avg-sessions :data="data.avgSessions" />
+      </b-col>
+      <b-col lg="6">
+        <analytics-support-tracker :data="data.supportTracker" />
+      </b-col>
+    </b-row>
+    
   </section>
 </template>
+
+
 
 <script>
 import { BRow, BCol } from 'bootstrap-vue'
