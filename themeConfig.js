@@ -11,7 +11,7 @@ export const $themeConfig = {
   app: {
     appName: 'EOS',
     // eslint-disable-next-line global-require
-    // appLogoImage: require('@/assets/images/logo/logo.svg'),
+    appLogoImage: require('@/assets/images/logo/logo.svg'),
   },
   layout: {
     isRTL: false,
