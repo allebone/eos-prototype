@@ -10,7 +10,7 @@ export default [
   {
     title: 'Orders',
     route: 'apps-supply-orders',
-    icon: 'FileTextIcont',
+    icon: 'FileTextIcon',
   },
   {
     title: 'Parts',

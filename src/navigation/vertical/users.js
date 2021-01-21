@@ -5,11 +5,11 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-users-dashboard',
-    icon: 'tablet',
+    icon: 'none',
   },
   {
     title: 'List',
     route: 'apps-users-list',
-    icon: 'UserIcon',
+    icon: 'UsersIcon',
   },
 ]
