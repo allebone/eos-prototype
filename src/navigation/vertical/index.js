@@ -38,4 +38,4 @@ import aircraft from './aircraft'
 import formAndTable from './forms-and-table'
 
 // Array of sections
-export default [...dashboard, ...mobile, ...supply, ...aircraft, ...formAndTable, ...users,]
+export default [...dashboard, ...mobile, ...supply, ...aircraft, ...formAndTable, ...users, ]
