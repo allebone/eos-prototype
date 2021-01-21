@@ -1,10 +1,10 @@
 export default [
     {
-      header: 'Mobile',
+        header: 'Mobile',
     },
     {
         title: 'Devices',
         route: 'mobile-devices',
         icon: 'tablet',
     },
-  ]
+]
