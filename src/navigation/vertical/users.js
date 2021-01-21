@@ -6,7 +6,6 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-users-dashboard',
-    icon: 'UserIcon',
   },
   {
     title: 'List',
