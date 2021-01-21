@@ -5,7 +5,6 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-supply-dashboard',
-    icon: 'tablet',
   },
   {
     title: 'Orders',
