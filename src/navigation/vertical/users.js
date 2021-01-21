@@ -1,9 +1,9 @@
 export default [
   {
-    header: 'Apps & Pages',
+    header: 'Users',
   },
   {
-    title: 'Users',
+    title: 'List',
     icon: 'UserIcon',
     children: [
       {
