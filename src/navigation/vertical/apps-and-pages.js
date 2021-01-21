@@ -19,5 +19,5 @@ export default [
         route: { name: 'apps-users-edit', params: { id: 21 } },
       },
     ],
-  }
+  },
 ]
