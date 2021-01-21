@@ -5,6 +5,7 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-aircraft-dashboard',
+    icon: 'tablet',
   },
   {
     title: 'Tails',

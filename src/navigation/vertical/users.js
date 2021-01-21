@@ -1,11 +1,11 @@
 export default [
   {
     header: 'Users',
-    icon: 'UserIcon',
   },
   {
     title: 'Dashboard',
     route: 'apps-users-dashboard',
+    icon: 'tablet',
   },
   {
     title: 'List',
