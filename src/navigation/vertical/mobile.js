@@ -5,11 +5,11 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-mobile-dashboard',
-    icon: 'fa-tablet',
+    icon: 'none',
   },
   {
     title: 'Devices',
     route: 'apps-mobile-devices',
-    icon: 'fa-tablet',
+    icon: 'TabletIcon',
   },
 ]
