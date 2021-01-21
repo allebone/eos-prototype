@@ -3,8 +3,13 @@ export default [
     header: 'Mobile',
   },
   {
+    title: 'Dashboard',
+    route: 'apps-mobile-dashboard',
+    icon: 'tablet',
+  },
+  {
     title: 'Devices',
-    route: 'mobile-devices',
+    route: 'apps-mobile-devices',
     icon: 'tablet',
   },
 ]

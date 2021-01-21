@@ -3,8 +3,13 @@ export default [
     header: 'Aircraft',
   },
   {
+    title: 'Dashboard',
+    route: 'apps-aircraft-dashboard',
+    icon: 'tablet',
+  },
+  {
     title: 'Tails',
-    route: 'mobile-devices',
+    route: 'apps-aircraft-tails',
     icon: 'tablet',
   },
 ]

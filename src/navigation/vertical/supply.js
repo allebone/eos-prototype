@@ -3,13 +3,18 @@ export default [
     header: 'Supply',
   },
   {
+    title: 'Dashboard',
+    route: 'apps-supply-dashboard',
+    icon: 'tablet',
+  },
+  {
     title: 'Orders',
-    route: 'mobile-devices',
+    route: 'apps-supply-orders',
     icon: 'tablet',
   },
   {
     title: 'Parts',
-    route: 'mobile-devices',
+    route: 'apps-supply-parts',
     icon: 'tablet',
   },
 ]
