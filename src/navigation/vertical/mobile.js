@@ -5,7 +5,7 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-mobile-dashboard',
-    icon: '',
+    icon: 'Tablet',
   },
   {
     title: 'Devices',
