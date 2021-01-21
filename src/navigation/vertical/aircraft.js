@@ -5,11 +5,11 @@ export default [
   {
     title: 'Dashboard',
     route: 'apps-aircraft-dashboard',
-    icon: 'tablet',
+    icon: 'none',
   },
   {
     title: 'Tails',
     route: 'apps-aircraft-tails',
-    icon: 'tablet',
+    icon: 'SendIcon',
   },
 ]
