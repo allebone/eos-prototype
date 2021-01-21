@@ -10,15 +10,15 @@ export default [
         route: 'dashboard-personal',
       },
       {
-        title: 'OMNI Mobile Program',
+        title: 'Mobile',
         route: 'dashboard-ecommerce',
       },
       {
-        title: 'OMNI Analytics',
+        title: 'Analytics',
         route: 'dashboard-analytics',
       },
       {
-        title: 'Readiness Assessment',
+        title: 'Readiness',
         route: 'dashboard-readiness',
       },
     ],

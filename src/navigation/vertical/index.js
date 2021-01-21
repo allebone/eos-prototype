@@ -33,8 +33,7 @@ tagVariant
 import dashboard from './dashboard'
 import users from './users'
 import mobile from './mobile'
-import others from './others'
 import formAndTable from './forms-and-table'
 
 // Array of sections
-export default [...dashboard, ...users, ...mobile, ...formAndTable, ...others]
+export default [...dashboard, ...users, ...mobile, ...formAndTable]
