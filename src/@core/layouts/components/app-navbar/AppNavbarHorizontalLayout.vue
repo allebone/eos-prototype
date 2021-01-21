@@ -26,7 +26,6 @@
       <locale />
       <dark-Toggler class="d-none d-lg-block" />
       <search-bar />
-      <cart-dropdown />
       <notification-dropdown />
       <user-dropdown />
     </b-navbar-nav>
@@ -41,7 +40,6 @@ import Bookmarks from './components/Bookmarks.vue'
 import Locale from './components/Locale.vue'
 import DarkToggler from './components/DarkToggler.vue'
 import SearchBar from './components/SearchBar.vue'
-import CartDropdown from './components/CartDropdown.vue'
 import NotificationDropdown from './components/NotificationDropdown.vue'
 import UserDropdown from './components/UserDropdown.vue'
 
@@ -55,7 +53,6 @@ export default {
     Locale,
     DarkToggler,
     SearchBar,
-    CartDropdown,
     NotificationDropdown,
     UserDropdown,
   },
