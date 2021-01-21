@@ -1,6 +1,7 @@
 export default [
   {
     header: 'Users',
+    icon: 'UserIcon',
   },
   {
     title: 'Dashboard',
