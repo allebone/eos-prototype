@@ -1,6 +1,6 @@
 <template>
   <section id="dashboard-personal">
-      <b-row class="match-height">
+    <b-row class="match-height">
       <b-col lg="4">
         <analytics-timeline :data="data.timeline" />
       </b-col>
