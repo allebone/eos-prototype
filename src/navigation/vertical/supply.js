@@ -9,11 +9,11 @@ export default [
   {
     title: 'Orders',
     route: 'apps-supply-orders',
-    icon: 'tablet',
+    icon: 'Tablet',
   },
   {
     title: 'Parts',
     route: 'apps-supply-parts',
-    icon: 'tablet',
+    icon: 'Tablet',
   },
 ]

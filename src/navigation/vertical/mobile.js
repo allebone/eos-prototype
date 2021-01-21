@@ -9,6 +9,6 @@ export default [
   {
     title: 'Devices',
     route: 'apps-mobile-devices',
-    icon: 'tablet',
+    icon: 'Tablet',
   },
 ]
