@@ -25,28 +25,6 @@ export default [
     ],
   },
   {
-    title: 'eCommerce',
-    icon: 'ShoppingCartIcon',
-    children: [
-      {
-        title: 'Shop',
-        route: 'apps-e-commerce-shop',
-      },
-      {
-        title: 'Details',
-        route: { name: 'apps-e-commerce-product-details', params: { slug: 'apple-watch-series-5-27' } },
-      },
-      {
-        title: 'Wishlist',
-        route: 'apps-e-commerce-wishlist',
-      },
-      {
-        title: 'Checkout',
-        route: 'apps-e-commerce-checkout',
-      },
-    ],
-  },
-  {
     title: 'User',
     icon: 'UserIcon',
     children: [
@@ -129,56 +107,6 @@ export default [
       {
         title: 'Knowledge Base',
         route: 'pages-knowledge-base',
-      },
-      {
-        title: 'Pricing',
-        route: 'pages-pricing',
-      },
-      {
-        title: 'Blog',
-        children: [
-          {
-            title: 'List',
-            route: 'pages-blog-list',
-          },
-          {
-            title: 'Detail',
-            route: { name: 'pages-blog-detail', params: { id: 1 } },
-          },
-          {
-            title: 'Edit',
-            route: { name: 'pages-blog-edit', params: { id: 1 } },
-          },
-        ],
-      },
-      {
-        title: 'Mail Templates',
-        children: [
-          {
-            title: 'Welcome',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-welcome.html',
-          },
-          {
-            title: 'Reset Password',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-reset-password.html',
-          },
-          {
-            title: 'Verify Email',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-verify-email.html',
-          },
-          {
-            title: 'Deactivate Account',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-deactivate-account.html',
-          },
-          {
-            title: 'Invoice',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-invoice.html',
-          },
-          {
-            title: 'Promotional',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-promotional.html',
-          },
-        ],
       },
       {
         title: 'Miscellaneous',
