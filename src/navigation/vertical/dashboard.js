@@ -10,7 +10,7 @@ export default [
         route: 'dashboard-personal',
       },
       {
-        title: 'Mobile Program',
+        title: 'OMNI Mobile Program',
         route: 'dashboard-ecommerce',
       },
       {

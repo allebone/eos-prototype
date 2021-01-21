@@ -1,15 +1,6 @@
 <template>
   <section id="dashboard-personal">
-    <b-row class="match-height">
-      <b-col
-        lg="6"
-        md="12"
-      >
-        <analytics-congratulation :data="data.congratulations" />
-      </b-col>
-    </b-row>
-
-    <b-row class="match-height">
+      <b-row class="match-height">
       <b-col lg="4">
         <analytics-timeline :data="data.timeline" />
       </b-col>
@@ -43,7 +34,6 @@ import { BRow, BCol } from 'bootstrap-vue'
 
 import { kFormatter } from '@core/utils/filter'
 import InvoiceList from '@/views/apps/invoice/invoice-list/InvoiceList.vue'
-import AnalyticsCongratulation from './AnalyticsCongratulation.vue'
 import AnalyticsAvgSessions from './AnalyticsAvgSessions.vue'
 import AnalyticsSupportTracker from './AnalyticsSupportTracker.vue'
 import AnalyticsTimeline from './AnalyticsTimeline.vue'
@@ -54,9 +44,7 @@ export default {
   components: {
     BRow,
     BCol,
-    AnalyticsCongratulation,
     AnalyticsAvgSessions,
-    // StatisticCardWithAreaChart,
     AnalyticsSupportTracker,
     AnalyticsTimeline,
     AnalyticsSalesRadarChart,

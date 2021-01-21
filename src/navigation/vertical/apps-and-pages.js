@@ -25,7 +25,7 @@ export default [
     ],
   },
   {
-    title: 'User',
+    title: 'Users',
     icon: 'UserIcon',
     children: [
       {

@@ -2,7 +2,7 @@ import mock from '@/@fake-db/mock'
 /* eslint-disable global-require */
 const data = {
   congratulations: {
-    name: 'John',
+    name: 'Bryan',
     saleToday: '48900',
   },
   statisticsItems: [
