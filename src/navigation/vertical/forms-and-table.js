@@ -1,6 +1,6 @@
 export default [
   {
-    header: 'Forms & Tables',
+    header: 'Examples',
   },
   {
     title: 'Forms Elements',
