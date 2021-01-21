@@ -25,13 +25,10 @@ const router = new VueRouter({
     ...apps,
     ...dashboard,
     ...pages,
-    ...chartsMaps,
     ...formsTable,
-    ...uiElements,
-    ...others,
     {
       path: '*',
-      redirect: 'error-404',
+      redirect: 'dashboard-personal',
     },
   ],
 })
