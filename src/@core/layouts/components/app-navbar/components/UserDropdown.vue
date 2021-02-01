@@ -63,7 +63,7 @@
 
 <script>
 import {
-  BNavItemDropdown, BDropdownItem, BDropdownDivider, BAvatar,
+  BNavItemDropdown, BDropdownItem, BAvatar,
 } from 'bootstrap-vue'
 import { initialAbility } from '@/libs/acl/config'
 import useJwt from '@/auth/jwt/useJwt'
@@ -73,7 +73,6 @@ export default {
   components: {
     BNavItemDropdown,
     BDropdownItem,
-    BDropdownDivider,
     BAvatar,
   },
   data() {
