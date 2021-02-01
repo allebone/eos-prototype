@@ -26,20 +26,6 @@
         />
       </b-avatar>
     </template>
-
-    <b-dropdown-item
-      :to="{ name: 'pages-profile'}"
-      link-class="d-flex align-items-center"
-    >
-      <feather-icon
-        size="16"
-        icon="UserIcon"
-        class="mr-50"
-      />
-      <span>Profile</span>
-    </b-dropdown-item>
-    <b-dropdown-divider />
-
     <b-dropdown-item
       :to="{ name: 'pages-account-setting' }"
       link-class="d-flex align-items-center"
@@ -50,17 +36,6 @@
         class="mr-50"
       />
       <span>Settings</span>
-    </b-dropdown-item>
-    <b-dropdown-item
-      :to="{ name: 'pages-pricing' }"
-      link-class="d-flex align-items-center"
-    >
-      <feather-icon
-        size="16"
-        icon="CreditCardIcon"
-        class="mr-50"
-      />
-      <span>Pricing</span>
     </b-dropdown-item>
     <b-dropdown-item
       :to="{ name: 'pages-faq' }"

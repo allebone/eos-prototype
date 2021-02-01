@@ -4,17 +4,17 @@ const data = {
   accountSetting: {
     general: {
       avatar: require('@/assets/images/portrait/small/avatar-s-11.jpg'),
-      username: 'johndoe',
-      fullName: 'John Doe',
-      email: 'granger007@hogward.com',
-      company: 'Crystal Technologies',
+      username: 'ballebone',
+      fullName: 'Bryan Allebone',
+      email: 'ballebone@kr.af.mil',
+      company: 'Project BOCKSCAR',
     },
     info: {
       bio: '',
       dob: null,
       country: 'USA',
       website: '',
-      phone: 6562542568,
+      phone: 7192358180,
     },
     social: {
       socialLinks: {
