@@ -81,7 +81,6 @@ import store from '@/store'
 import userStoreModule from '../userStoreModule'
 import UserEditTabAccount from './UserEditTabAccount.vue'
 import UserEditTabInformation from './UserEditTabInformation.vue'
-import UserEditTabSocial from './UserEditTabSocial.vue'
 
 export default {
   components: {
@@ -93,7 +92,6 @@ export default {
 
     UserEditTabAccount,
     UserEditTabInformation,
-    UserEditTabSocial,
   },
   setup() {
     const userData = ref(null)
