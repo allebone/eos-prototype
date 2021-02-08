@@ -89,7 +89,6 @@ export default {
     BCard,
     BAlert,
     BLink,
-
     UserEditTabAccount,
     UserEditTabInformation,
   },

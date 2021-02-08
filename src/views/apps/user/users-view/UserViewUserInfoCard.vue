@@ -109,7 +109,7 @@
                 icon="StarIcon"
                 class="mr-75"
               />
-              <span class="font-weight-bold">Role</span>
+              <span class="font-weight-bold">Roles</span>
             </th>
             <td class="pb-50 text-capitalize">
               {{ userData.role }}
