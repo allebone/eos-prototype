@@ -9,7 +9,7 @@
     <b-table
       striped
       responsive
-      :items="permissionsData"
+      :items="certificationsData"
       class="mb-0"
     >
 
@@ -37,7 +37,7 @@ export default {
     BCard, BTable, BCardBody, BCardTitle, BCardSubTitle, BFormCheckbox,
   },
   setup() {
-    const permissionsData = [
+    const certificationsData = [
       {
         module: 'Navy',
         certified: true,
@@ -62,7 +62,7 @@ export default {
     ]
 
     return {
-      permissionsData,
+      certificationsData,
     }
   },
 }
