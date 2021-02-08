@@ -44,7 +44,7 @@
         </b-col>
       </b-row>
 
-      <invoice-list />
+      <user-view-user-permissions-card />
     </template>
 
   </div>
