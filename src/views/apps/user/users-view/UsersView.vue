@@ -74,7 +74,7 @@ export default {
     UserViewUserInfoCard,
     UserViewUserTimelineCard,
     UserViewUserPermissionsCard,
-    UserViewUserCertificationsCard
+    UserViewUserCertificationsCard,
 
   },
   setup() {
