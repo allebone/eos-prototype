@@ -44,7 +44,7 @@
         </b-col>
       </b-row>
 
-      <user-view-user-permissions-card />
+      <user-view-user-certifications-card />
     </template>
 
   </div>

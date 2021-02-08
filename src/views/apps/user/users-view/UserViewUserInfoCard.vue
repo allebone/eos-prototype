@@ -48,16 +48,12 @@
               variant="light-primary"
               rounded
             >
-              <feather-icon
-                icon="DollarSignIcon"
-                size="18"
-              />
             </b-avatar>
             <div class="ml-1">
               <h5 class="mb-0">
-                23.3k
+                19.4 Years
               </h5>
-              <small>Monthly Sales</small>
+              <small>Years of Federal Service</small>
             </div>
           </div>
 
@@ -66,16 +62,12 @@
               variant="light-success"
               rounded
             >
-              <feather-icon
-                icon="TrendingUpIcon"
-                size="18"
-              />
-            </b-avatar>
+             </b-avatar>
             <div class="ml-1">
               <h5 class="mb-0">
-                $99.87k
+                2 Years
               </h5>
-              <small>Annual Profit</small>
+              <small>Time In Grade</small>
             </div>
           </div>
         </div>

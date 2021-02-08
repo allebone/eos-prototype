@@ -3,8 +3,8 @@
     no-body
   >
     <b-card-body>
-      <b-card-title>Permissions</b-card-title>
-      <b-card-sub-title>Permission according to roles</b-card-sub-title>
+      <b-card-title>Certifications</b-card-title>
+      <b-card-sub-title>Certifications According To Roles</b-card-sub-title>
     </b-card-body>
     <b-table
       striped
@@ -39,39 +39,25 @@ export default {
   setup() {
     const permissionsData = [
       {
-        module: 'Admin',
-        read: true,
-        write: false,
-        create: false,
-        delete: false,
+        module: 'Navy',
+        certified: true,
+        certifier: false,
+        instructor: false,
+        evaluator: false,
       },
       {
-        module: 'Staff',
-        read: false,
-        write: true,
-        create: false,
-        delete: false,
+        module: 'Tactical',
+        certified: false,
+        certifier: true,
+        instructor: false,
+        evaluator: false,
       },
       {
-        module: 'Author',
-        read: true,
-        write: false,
-        create: true,
-        delete: false,
-      },
-      {
-        module: 'Contributor',
-        read: false,
-        write: false,
-        create: false,
-        delete: false,
-      },
-      {
-        module: 'User',
-        read: false,
-        write: false,
-        create: false,
-        delete: true,
+        module: 'Gunner',
+        certified: true,
+        certifier: true,
+        instructor: true,
+        evaluator: true,
       },
     ]
 
