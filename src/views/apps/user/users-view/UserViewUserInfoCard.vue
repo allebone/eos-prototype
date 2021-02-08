@@ -73,7 +73,7 @@
         </div>
       </b-col>
 
-      <!-- Right Col: Table -->
+      <!-- Rght Col: Table -->
       <b-col
         cols="12"
         xl="6"
