@@ -59,9 +59,9 @@ import {
 } from 'bootstrap-vue'
 import userStoreModule from '../userStoreModule'
 import UserViewUserInfoCard from './UserViewUserInfoCard.vue'
+import UserViewUserCertificationsCard from './UserViewUserCertificationsCard.vue'
 import UserViewUserTimelineCard from './UserViewUserTimelineCard.vue'
 import UserViewUserPermissionsCard from './UserViewUserPermissionsCard.vue'
-import UserViewUserCertificationsCard from './UserViewUserCertificationsCard.vue'
 
 export default {
   components: {
