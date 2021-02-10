@@ -72,10 +72,9 @@ export default {
 
     // Local Components
     UserViewUserInfoCard,
+    UserViewUserCertificationsCard,
     UserViewUserTimelineCard,
     UserViewUserPermissionsCard,
-    UserViewUserCertificationsCard,
-
   },
   setup() {
     const userData = ref(null)
