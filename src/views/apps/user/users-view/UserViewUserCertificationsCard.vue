@@ -40,28 +40,45 @@ export default {
     const qualificationsData = [
       {
         mds: 'RC-135S',
+        mission: true,
         instructor: true,
         evaluator: true,
       },
       {
         mds: 'RC-135U',
+        mission: true,
         instructor: true,
         evaluator: true,
       },
       {
         mds: 'RC-135V',
+        mission: true,
         instructor: true,
         evaluator: true,
       },
       {
         mds: 'RC-135W',
+        mission: true,
         instructor: true,
         evaluator: true,
       },
       {
         mds: 'TC-135W',
+        mission: true,
         instructor: true,
         evaluator: true,
+      },
+      {
+        mds: 'OC-135B',
+        mission: false,
+        instructor: false,
+        evaluator: false,
+      },
+      {
+        mds: 'WC-135B',
+        mission: false,
+        instructor: false,
+        evaluator: false,
       },
     ]
 
