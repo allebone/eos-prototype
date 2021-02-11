@@ -31,19 +31,19 @@
 
       <b-row>
         <b-col>
-      <user-view-user-permissions-card />
+          <user-view-user-permissions-card />
         </b-col>
       </b-row>
 
       <b-row>
         <b-col>
-      <user-view-user-certifications-card />
+          <user-view-user-certifications-card />
         </b-col>
       </b-row>
-      
+
       <b-row>
         <b-col>
-      <user-view-user-timeline-card />
+          <user-view-user-timeline-card />
         </b-col>
       </b-row>
     </template>
