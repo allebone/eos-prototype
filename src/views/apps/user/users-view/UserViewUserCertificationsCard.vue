@@ -39,43 +39,43 @@ export default {
   setup() {
     const qualificationsData = [
       {
-        mds: 'RC-135S',
+        module: 'RC-135S',
         mission: true,
         instructor: true,
         evaluator: true,
       },
       {
-        mds: 'RC-135U',
+        module: 'RC-135U',
         mission: true,
         instructor: true,
         evaluator: true,
       },
       {
-        mds: 'RC-135V',
+        module: 'RC-135V',
         mission: true,
         instructor: true,
         evaluator: true,
       },
       {
-        mds: 'RC-135W',
+        module: 'RC-135W',
         mission: true,
         instructor: true,
         evaluator: true,
       },
       {
-        mds: 'TC-135W',
+        module: 'TC-135W',
         mission: true,
         instructor: true,
         evaluator: true,
       },
       {
-        mds: 'OC-135B',
+        module: 'OC-135B',
         mission: false,
         instructor: false,
         evaluator: false,
       },
       {
-        mds: 'WC-135B',
+        module: 'WC-135B',
         mission: false,
         instructor: false,
         evaluator: false,
