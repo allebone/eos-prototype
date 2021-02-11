@@ -42,22 +42,16 @@ export default {
         module: 'Navy',
         certified: true,
         certifier: false,
-        instructor: false,
-        evaluator: false,
       },
       {
         module: 'Tactical',
         certified: false,
         certifier: true,
-        instructor: false,
-        evaluator: false,
       },
       {
         module: 'Gunner',
         certified: true,
         certifier: true,
-        instructor: true,
-        evaluator: true,
       },
     ]
 
