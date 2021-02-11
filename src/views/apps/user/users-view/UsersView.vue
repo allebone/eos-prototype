@@ -28,23 +28,21 @@
           <user-view-user-info-card :user-data="userData" />
         </b-col>
       </b-row>
-
       <b-row>
-        <b-col
-          cols="12"
-          lg="6"
-        >
-          <user-view-user-timeline-card />
-        </b-col>
-        <b-col
-          cols="12"
-          lg="6"
-        >
-          <user-view-user-permissions-card />
+        <b-col>
+      <user-view-user-permissions-card />
         </b-col>
       </b-row>
-
+      <b-row>
+        <b-col>
       <user-view-user-certifications-card />
+        </b-col>
+      </b-row>
+      <b-row>
+        <b-col>
+      <user-view-user-timeline-card />
+        </b-col>
+      </b-row>
     </template>
 
   </div>
