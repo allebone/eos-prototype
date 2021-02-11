@@ -3,13 +3,13 @@
     no-body
   >
     <b-card-body>
-      <b-card-title>Qualifications</b-card-title>
-      <b-card-sub-title>Qualifications According To Roles</b-card-sub-title>
+      <b-card-title>Certifications</b-card-title>
+      <b-card-sub-title>Certifications According To Roles</b-card-sub-title>
     </b-card-body>
     <b-table
       striped
       responsive
-      :items="qualificationsData"
+      :items="certificationsData"
       class="mb-0"
     >
 
@@ -37,36 +37,32 @@ export default {
     BCard, BTable, BCardBody, BCardTitle, BCardSubTitle, BFormCheckbox,
   },
   setup() {
-    const qualificationsData = [
+    const certificationsData = [
       {
-        mds: 'RC-135S',
-        instructor: true,
-        evaluator: true,
+        module: 'Navy',
+        certified: true,
+        certifier: false,
+        instructor: false,
+        evaluator: false,
       },
       {
-        mds: 'RC-135U',
-        instructor: true,
-        evaluator: true,
+        module: 'Tactical',
+        certified: false,
+        certifier: true,
+        instructor: false,
+        evaluator: false,
       },
       {
-        mds: 'RC-135V',
-        instructor: true,
-        evaluator: true,
-      },
-      {
-        mds: 'RC-135W',
-        instructor: true,
-        evaluator: true,
-      },
-      {
-        mds: 'TC-135W',
+        module: 'Gunner',
+        certified: true,
+        certifier: true,
         instructor: true,
         evaluator: true,
       },
     ]
 
     return {
-      qualificationsData,
+      certificationsData,
     }
   },
 }

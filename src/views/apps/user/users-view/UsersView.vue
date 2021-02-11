@@ -31,19 +31,22 @@
 
       <b-row>
         <b-col>
-          <user-view-user-permissions-card />
-        </b-col>
-      </b-row>
-
-      <b-row>
-        <b-col>
           <user-view-user-certifications-card />
+        </b-col>
+        <b-col>
+          <user-view-user-qualifications-card />
         </b-col>
       </b-row>
 
       <b-row>
         <b-col>
           <user-view-user-timeline-card />
+        </b-col>
+      </b-row>
+
+      <b-row>
+        <b-col>
+          <user-view-user-permissions-card />
         </b-col>
       </b-row>
     </template>
@@ -61,6 +64,7 @@ import {
 import userStoreModule from '../userStoreModule'
 import UserViewUserInfoCard from './UserViewUserInfoCard.vue'
 import UserViewUserCertificationsCard from './UserViewUserCertificationsCard.vue'
+import UserViewUserQualificationsCard from './UserViewUserQualificationsCard.vue'
 import UserViewUserTimelineCard from './UserViewUserTimelineCard.vue'
 import UserViewUserPermissionsCard from './UserViewUserPermissionsCard.vue'
 
@@ -74,6 +78,7 @@ export default {
     // Local Components
     UserViewUserInfoCard,
     UserViewUserCertificationsCard,
+    UserViewUserQualificationsCard,
     UserViewUserTimelineCard,
     UserViewUserPermissionsCard,
   },
