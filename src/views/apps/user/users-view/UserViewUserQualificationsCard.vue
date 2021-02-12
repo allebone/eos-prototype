@@ -45,13 +45,13 @@ export default {
       },
       {
         cert: 'Tactical',
-        certified: false,
+        certified: true,
         certifier: true,
       },
       {
         cert: 'Gunner',
         certified: true,
-        certifier: true,
+        certifier: false,
       },
     ]
 
