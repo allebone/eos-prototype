@@ -4,7 +4,7 @@
   >
     <b-card-body>
       <b-card-title>Languages</b-card-title>
-      <b-card-sub-title>Languages Assigned by CLPM</b-card-sub-title>
+      <b-card-sub-title>Languages Assigned by CLPM-System</b-card-sub-title>
     </b-card-body>
     <b-table
       striped
