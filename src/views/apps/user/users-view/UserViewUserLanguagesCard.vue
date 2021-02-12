@@ -56,7 +56,7 @@ export default {
     ]
 
     return {
-      certificationsData,
+      languagesData,
     }
   },
 }
