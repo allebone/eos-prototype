@@ -43,7 +43,7 @@
 
       <b-row>
         <b-col>
-          <user-view-user-language-card />
+          <user-view-user-languages-card />
         </b-col>
       </b-row>
 
