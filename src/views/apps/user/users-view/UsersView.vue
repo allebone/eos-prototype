@@ -89,6 +89,7 @@ export default {
     UserViewUserInfoCard,
     UserViewUserCertificationsCard,
     UserViewUserQualificationsCard,
+    UserViewUserLanguagesCard,
     UserViewUserTimelineCard,
     UserViewUserPermissionsCard,
   },
