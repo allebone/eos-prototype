@@ -39,17 +39,17 @@ export default {
   setup() {
     const certificationsData = [
       {
-        module: 'Navy',
+        cert: 'Navy',
         certified: true,
         certifier: false,
       },
       {
-        module: 'Tactical',
+        cert: 'Tactical',
         certified: false,
         certifier: true,
       },
       {
-        module: 'Gunner',
+        cert: 'Gunner',
         certified: true,
         certifier: true,
       },
