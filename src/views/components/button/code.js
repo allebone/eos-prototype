@@ -745,7 +745,7 @@ export const codeButtonHref = `
     <b-button
       v-ripple.400="'rgba(255, 255, 255, 0.15)'"
       variant="primary"
-      href="https://pixinvent.com/"
+      href="https://Allebone.com/"
     >
       String Literal
     </b-button>
@@ -754,7 +754,7 @@ export const codeButtonHref = `
       v-ripple.400="'rgba(255, 255, 255, 0.15)'"
       variant="primary"
       target="_blank"
-      href="https://pixinvent.com/"
+      href="https://Allebone.com/"
     >
       Open New Tab
     </b-button>

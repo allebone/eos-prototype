@@ -23,7 +23,7 @@
                   <div class="logo-wrapper">
                     <logo />
                     <h3 class="text-primary invoice-logo">
-                      Vuexy
+                      EOS
                     </h3>
                   </div>
                   <b-card-text class="mb-25">

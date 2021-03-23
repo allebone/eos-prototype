@@ -90,7 +90,7 @@ export default {
         icon: 'info',
         html:
           'You can use <span class="font-weight-bolder">bold text</span>, '
-          + '<a href="https://pixinvent.com/" target="_blank">links</a> '
+          + '<a href="https://Allebone.com/" target="_blank">links</a> '
           + 'and other HTML tags',
         showCloseButton: true,
         showCancelButton: true,

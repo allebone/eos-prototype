@@ -43,12 +43,12 @@ export default [
       },
       {
         title: 'Raise Support',
-        href: 'https://pixinvent.ticksy.com/',
+        href: 'https://Allebone.ticksy.com/',
         icon: 'LifeBuoyIcon',
       },
       {
         title: 'Documentation',
-        href: 'https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/documentation',
+        href: 'https://Allebone.com/demo/EOS-vuejs-admin-dashboard-template/documentation',
         icon: 'FileTextIcon',
       },
     ],

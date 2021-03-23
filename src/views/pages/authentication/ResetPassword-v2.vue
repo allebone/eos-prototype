@@ -4,10 +4,10 @@
 
       <!-- Brand logo-->
       <b-link class="brand-logo">
-        <vuexy-logo />
+        <EOS-logo />
 
         <h2 class="brand-text text-primary ml-1">
-          Vuexy
+          EOS
         </h2>
       </b-link>
       <!-- /Brand logo-->
@@ -153,7 +153,7 @@
 <script>
 /* eslint-disable global-require */
 import { ValidationProvider, ValidationObserver } from 'vee-validate'
-import VuexyLogo from '@core/layouts/components/Logo.vue'
+import EOSLogo from '@core/layouts/components/Logo.vue'
 import {
   BRow, BCol, BCardTitle, BCardText, BForm, BFormGroup, BInputGroup, BInputGroupAppend, BLink, BFormInput, BButton, BImg,
 } from 'bootstrap-vue'
@@ -163,7 +163,7 @@ import ToastificationContent from '@core/components/toastification/Toastificatio
 
 export default {
   components: {
-    VuexyLogo,
+    EOSLogo,
     BRow,
     BCol,
     BButton,

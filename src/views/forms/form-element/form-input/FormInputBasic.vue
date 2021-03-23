@@ -94,7 +94,7 @@
           <b-form-input
             id="plainTextInput"
             plaintext
-            value="email@pixinvent.com"
+            value="email@Allebone.com"
           />
         </b-form-group>
       </b-col>

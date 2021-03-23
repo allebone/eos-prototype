@@ -2,9 +2,9 @@
   <!-- Error page-->
   <div class="misc-wrapper">
     <b-link class="brand-logo">
-      <vuexy-logo />
+      <EOS-logo />
       <h2 class="brand-text text-primary ml-1">
-        Vuexy
+        EOS
       </h2>
     </b-link>
 
@@ -40,12 +40,12 @@
 <script>
 /* eslint-disable global-require */
 import { BLink, BButton, BImg } from 'bootstrap-vue'
-import VuexyLogo from '@core/layouts/components/Logo.vue'
+import EOSLogo from '@core/layouts/components/Logo.vue'
 import store from '@/store/index'
 
 export default {
   components: {
-    VuexyLogo,
+    EOSLogo,
     BLink,
     BButton,
     BImg,

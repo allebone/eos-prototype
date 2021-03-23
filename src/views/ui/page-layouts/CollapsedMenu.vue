@@ -10,7 +10,7 @@
           <span>Use this layout to set vertical menu (navigation) default collapsed. Please check the </span>
           <b-link
             class="alert-link"
-            href="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/documentation/guide/layout/page-layout-examples.html#collapsed-menu"
+            href="https://Allebone.com/demo/EOS-vuejs-admin-dashboard-template/documentation/guide/layout/page-layout-examples.html#collapsed-menu"
             target="_blank"
           >Layout collapsed menu documentation</b-link>
           <span> for more details.</span>

@@ -98,27 +98,27 @@ export default [
         children: [
           {
             title: 'Welcome',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-welcome.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-welcome.html',
           },
           {
             title: 'Reset Password',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-reset-password.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-reset-password.html',
           },
           {
             title: 'Verify Email',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-verify-email.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-verify-email.html',
           },
           {
             title: 'Deactivate Account',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-deactivate-account.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-deactivate-account.html',
           },
           {
             title: 'Invoice',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-invoice.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-invoice.html',
           },
           {
             title: 'Promotional',
-            href: 'https://pixinvent.com/demo/vuexy-mail-template/mail-promotional.html',
+            href: 'https://Allebone.com/demo/EOS-mail-template/mail-promotional.html',
           },
         ],
       },

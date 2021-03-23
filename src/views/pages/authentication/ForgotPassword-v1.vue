@@ -6,10 +6,10 @@
       <b-card class="mb-0">
         <b-link class="brand-logo">
           <!-- logo -->
-          <vuexy-logo />
+          <EOS-logo />
 
           <h2 class="brand-text text-primary ml-1">
-            Vuexy
+            EOS
           </h2>
         </b-link>
 
@@ -72,7 +72,7 @@
 
 <script>
 import { ValidationProvider, ValidationObserver } from 'vee-validate'
-import VuexyLogo from '@core/layouts/components/Logo.vue'
+import EOSLogo from '@core/layouts/components/Logo.vue'
 import {
   BCard, BLink, BCardText, BCardTitle, BFormGroup, BFormInput, BForm, BButton,
 } from 'bootstrap-vue'
@@ -80,7 +80,7 @@ import { required, email } from '@validations'
 
 export default {
   components: {
-    VuexyLogo,
+    EOSLogo,
     BCard,
     BLink,
     BCardText,

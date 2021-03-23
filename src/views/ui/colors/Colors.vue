@@ -14,7 +14,7 @@
           <div class="alert-body">
             For more color classes options please read the
             <b-link
-              href="https://pixinvent.com/demo/vuexy-html-bootstrap-admin-template/documentation/documentation-colors.html"
+              href="https://Allebone.com/demo/EOS-html-bootstrap-admin-template/documentation/documentation-colors.html"
               target="_blank"
               class="alert-link"
             >

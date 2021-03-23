@@ -58,7 +58,7 @@ export default {
 
     // tour steps
     tourStart() {
-      this.$tours.vuexyTour.start()
+      this.$tours.EOSTour.start()
     },
   },
 }
