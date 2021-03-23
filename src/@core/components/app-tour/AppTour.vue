@@ -3,8 +3,8 @@
     Description: Tour Component
     ----------------------------------------------------------------------------------------
     Item Name: EOS - Vuejs, HTML & Laravel Admin Dashboard Template
-      Author: Bryan Allebone
-    Author URL: 
+    Author: Bryan Allebone
+    Author URL:
 ========================================================================================== -->
 
 <template>
