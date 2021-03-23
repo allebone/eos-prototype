@@ -1,6 +1,6 @@
 <template>
   <li
-    v-if="item.children.some(i => $can(i.action, i.resource))"
+    v-if="canViewVerticalNavMenuGroup(item)"
     class="dropdown dropdown-submenu"
     :class="{
       'show': isOpen,
@@ -18,7 +18,7 @@
       @click="() => updateGroupOpen(!isOpen)"
     >
       <feather-icon :icon="item.icon || 'CircleIcon'" />
-      <span class="menu-title">{{ $t(item.title) }}</span>
+      <span class="menu-title">{{ t(item.title) }}</span>
     </b-link>
     <ul
       ref="refChildDropdown"
@@ -38,9 +38,9 @@
 <script>
 import { BLink } from 'bootstrap-vue'
 import { resolveHorizontalNavMenuItemComponent as resolveNavItemComponent } from '@core/layouts/utils'
+import { useUtils as useI18nUtils } from '@core/libs/i18n'
+import { useUtils as useAclUtils } from '@core/libs/acl'
 import HorizontalNavMenuLink from '../horizontal-nav-menu-link/HorizontalNavMenuLink.vue'
-
-// import { ref } from '@vue/composition-api'
 
 // Composition Function
 import useHorizontalNavMenuGroup from './useHorizontalNavMenuGroup'
@@ -69,6 +69,9 @@ export default {
       openChildDropdownOnLeft,
     } = useHorizontalNavMenuGroup(props.item)
 
+    const { t } = useI18nUtils()
+    const { canViewVerticalNavMenuGroup } = useAclUtils()
+
     return {
       refChildDropdown,
       openChildDropdownOnLeft,
@@ -77,6 +80,12 @@ export default {
       isActive,
       updateGroupOpen,
       updateIsActive,
+
+      // ACL
+      canViewVerticalNavMenuGroup,
+
+      // i18n
+      t,
     }
   },
 }

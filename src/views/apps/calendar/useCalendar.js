@@ -126,7 +126,6 @@ export default function userCalendar() {
   const removeEventInCalendar = eventId => {
     toast({
       component: ToastificationContent,
-      position: 'bottom-right',
       props: {
         title: 'Event Removed',
         icon: 'TrashIcon',

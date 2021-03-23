@@ -11,7 +11,7 @@
       </b-card-header>
       <b-card-body>
         <h6 class="card-holder-name my-75">
-          Bryan Allebone
+          John Doe
         </h6>
 
         <!-- Radios -->

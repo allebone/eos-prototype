@@ -39,8 +39,11 @@
   .main-menu-content {
     .navigation-main {
       background-color: $theme-dark-card-bg;
+      .navigation-header {
+        color: $theme-dark-text-muted-color;
+      }
       .nav-item {
-        i {
+        a {
           color: $theme-dark-body-color;
         }
         &.open {
@@ -91,12 +94,13 @@
   }
 
   // menu collapsed active item color
-  &.menu-collapsed {
+  .menu-collapsed {
     .main-menu:not(.expanded) {
       .navigation-main {
         li.active {
-          a {
+          > a {
             background: $theme-dark-body-bg !important;
+            color: $white !important;
           }
         }
       }

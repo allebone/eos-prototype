@@ -6,7 +6,7 @@
       <b-link class="brand-logo">
         <vuexy-logo />
         <h2 class="brand-text text-primary ml-1">
-          EOS
+          Vuexy
         </h2>
       </b-link>
       <!-- /Brand logo-->
@@ -41,10 +41,10 @@
             class="mb-1 font-weight-bold"
             title-tag="h2"
           >
-            Welcome to Enterprise Operartions System (EOS)! 👋
+            Welcome to Vuexy! 👋
           </b-card-title>
           <b-card-text class="mb-2">
-            Please sign-in to your account and start the adventure!
+            Please sign-in to your account and start the adventure
           </b-card-text>
 
           <b-alert
@@ -161,9 +161,47 @@
             </b-form>
           </validation-observer>
 
-          <!-- divider -->
-          <div class="divider my-2" />
+          <b-card-text class="text-center mt-2">
+            <span>New on our platform? </span>
+            <b-link :to="{name:'auth-register'}">
+              <span>&nbsp;Create an account</span>
+            </b-link>
+          </b-card-text>
 
+          <!-- divider -->
+          <div class="divider my-2">
+            <div class="divider-text">
+              or
+            </div>
+          </div>
+
+          <!-- social buttons -->
+          <div class="auth-footer-btn d-flex justify-content-center">
+            <b-button
+              variant="facebook"
+              href="javascript:void(0)"
+            >
+              <feather-icon icon="FacebookIcon" />
+            </b-button>
+            <b-button
+              variant="twitter"
+              href="javascript:void(0)"
+            >
+              <feather-icon icon="TwitterIcon" />
+            </b-button>
+            <b-button
+              variant="google"
+              href="javascript:void(0)"
+            >
+              <feather-icon icon="MailIcon" />
+            </b-button>
+            <b-button
+              variant="github"
+              href="javascript:void(0)"
+            >
+              <feather-icon icon="GithubIcon" />
+            </b-button>
+          </div>
         </b-col>
       </b-col>
     <!-- /Login-->
@@ -255,7 +293,7 @@ export default {
               this.$store.commit('app-ecommerce/UPDATE_CART_ITEMS_COUNT', userData.extras.eCommerceCartItemsCount)
 
               // ? This is just for demo purpose. Don't think CASL is role based in this case, we used role in if condition just for ease
-              this.$router.push(getHomeRouteForLoggedInUser(userData.role))
+              this.$router.replace(getHomeRouteForLoggedInUser(userData.role))
                 .then(() => {
                   this.$toast({
                     component: ToastificationContent,
@@ -268,9 +306,9 @@ export default {
                     },
                   })
                 })
-                .catch(error => {
-                  this.$refs.loginForm.setErrors(error.response.data.error)
-                })
+            })
+            .catch(error => {
+              this.$refs.loginForm.setErrors(error.response.data.error)
             })
         }
       })

@@ -57,7 +57,7 @@
             </b-media-aside>
             <b-media-body class="my-auto">
               <h6 class="mb-0">
-                Bryan Allebone (Client)
+                John Doe (Client)
               </h6>
               <p class="mb-0">
                 CEO of Infibeam

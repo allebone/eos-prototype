@@ -205,7 +205,7 @@ export const codeIcon = `
                 <span>Card 12XX XXXX XXXX 0000</span>
               </div>
               <div class="card-holder-name">
-                Bryan Allebone
+                John Doe
               </div>
               <div class="card-expiration-date">
                 11/2020

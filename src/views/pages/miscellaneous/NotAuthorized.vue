@@ -3,7 +3,7 @@
     <b-link class="brand-logo">
       <vuexy-logo />
       <h2 class="brand-text text-primary ml-1">
-        EOS
+        Vuexy
       </h2>
     </b-link>
 
@@ -13,7 +13,7 @@
           You are not authorized! 🔐
         </h2>
         <p class="mb-2">
-          You don’t have permission to access this page.
+          You don’t have permission to access this page. Go Home!!
         </p>
         <b-button
           variant="primary"

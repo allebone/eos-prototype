@@ -1,8 +1,7 @@
 {
-  "name": "eos",
-  "version": "0.1.0",
-  "private": false,
-  "license": "MIT",
+  "name": "vuexy-vuejs-react-html-laravel-admin-dashboard-template",
+  "version": "6.4.0",
+  "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
     "build": "vue-cli-service build",
@@ -22,7 +21,7 @@
     "apexcharts": "3.23.0",
     "axios": "0.21.1",
     "axios-mock-adapter": "1.19.0",
-    "bootstrap": "4.5.2",
+    "bootstrap": "4.6.0",
     "bootstrap-vue": "2.21.1",
     "chart.js": "2.9.4",
     "core-js": "3.8.1",
@@ -73,12 +72,11 @@
     "@vue/eslint-config-airbnb": "^5.3.0",
     "@vuepress/plugin-medium-zoom": "^1.7.1",
     "babel-eslint": "^10.0.3",
-    "eslint": "^7.16.0",
+    "eslint": "6.8.0",
     "eslint-plugin-import": "^2.22.1",
     "eslint-plugin-vue": "6.2.2",
     "sass": "^1.30.0",
     "sass-loader": "^10.1.0",
     "vue-template-compiler": "^2.6.11"
-  },
-  "eslintIgnore": ["./src/@fake-db", "src/@core/*", "node_modules/*", "src/@core/layouts/layout-horizontal/LayoutHorizontal.vue"]
+  }
 }

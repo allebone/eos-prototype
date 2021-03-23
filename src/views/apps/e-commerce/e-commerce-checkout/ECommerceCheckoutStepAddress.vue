@@ -263,7 +263,7 @@
 
       <!-- Right Col -->
       <div class="customer-card">
-        <b-card title="Bryan Allebone">
+        <b-card title="John Doe">
           <b-card-text class="mb-0">
             9447 Glen Eagles Drive
           </b-card-text>

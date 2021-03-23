@@ -186,6 +186,22 @@ const data = {
   },
 }
 
-/* eslint-disable global-require */
+mock.onGet('/faq/data').reply(config => {
+  const { q = '' } = config.params
+  const queryLowered = q.toLowerCase()
 
-mock.onGet('/faq/data').reply(() => [200, data.faqData])
+  const filteredData = {}
+
+  Object.entries(data.faqData).forEach(entry => {
+    const [categoryName, categoryObj] = entry
+    // eslint-disable-next-line arrow-body-style
+    const filteredQAndAOfCategory = categoryObj.qandA.filter(qAndAObj => {
+      return qAndAObj.question.toLowerCase().includes(queryLowered)
+    })
+    if (filteredQAndAOfCategory.length) {
+      filteredData[categoryName] = { ...categoryObj, qandA: filteredQAndAOfCategory }
+    }
+  })
+
+  return [200, filteredData]
+})

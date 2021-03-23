@@ -12,6 +12,7 @@ footer {
   &.footer {
     padding: 0.8rem $content-padding;
     min-height: $footer-height;
+    transition: 300ms ease all;
 
     // heart icon scss
     span {

@@ -11,7 +11,7 @@
 
       <!-- Sidebar Content -->
       <div
-        class="sidebar-content card"
+        class="sidebar-content"
         :class="{'show': mqShallShowLeftSidebar}"
       >
 

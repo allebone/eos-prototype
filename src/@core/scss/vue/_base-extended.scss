@@ -1,3 +1,8 @@
+// Disable overflow x to mitigate the horizontal scrollbar while transiting between routes
+body {
+  overflow-x: hidden;
+}
+
 // ------------------------------------------------
 // Vertical Menu
 // ------------------------------------------------

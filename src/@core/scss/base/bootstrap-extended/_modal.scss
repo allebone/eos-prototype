@@ -75,9 +75,11 @@
 }
 
 // Modal XL
-.modal-xl {
-  margin-left: 3%;
-  margin-right: 3%;
+@media (min-width: 1200px) {
+  .modal-xl {
+    margin-left: 3%;
+    margin-right: 3%;
+  }
 }
 
 // Slide In Modal //

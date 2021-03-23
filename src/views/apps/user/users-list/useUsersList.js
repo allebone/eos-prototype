@@ -26,10 +26,10 @@ export default function useUsersList() {
     { key: 'status', sortable: true },
     { key: 'actions' },
   ]
-  const perPage = ref(50)
+  const perPage = ref(10)
   const totalUsers = ref(0)
   const currentPage = ref(1)
-  const perPageOptions = [10, 25, 50, 100, 250]
+  const perPageOptions = [10, 25, 50, 100]
   const searchQuery = ref('')
   const sortBy = ref('id')
   const isSortDirDesc = ref(true)

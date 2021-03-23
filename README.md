@@ -1,9 +1,3 @@
-# Readme
+# Vuexy - Vuejs, React, HTML & Laravel Admin Dashboard Template
 
-## Vue.js Based Users/Personnel Application
-
-###To-DO
-
-  1. Update User Table/Forms to support proper fields
-  2. Connect to MS SQL
-  3. Ingest JWT from IBM Verify
+**Vuexy – Vuejs, React, HTML & Laravel Admin Dashboard Template** – is the most developer friendly & highly customizable Admin Dashboard Template based on Bootstrap 4, Bootstrap Vue & Reactstrap.

@@ -29,8 +29,8 @@
         }
         > li > a svg,
         > li > a i {
-          height: 1.4285rem;
-          width: 1.4285rem;
+          height: 20px;
+          width: 20px;
           font-size: 1.45rem;
           margin-right: 1.1rem;
           flex-shrink: 0;
@@ -64,8 +64,8 @@
               > i,
               > svg {
                 &:before {
-                  height: 1.4285rem;
-                  width: 1.4285rem;
+                  height: 20px;
+                  width: 20px;
                   font-size: 1.45rem;
                 }
               }

@@ -55,7 +55,7 @@
                 autofocus
                 :state="getValidationState(validationContext)"
                 trim
-                placeholder="Bryan Allebone"
+                placeholder="John Doe"
               />
 
               <b-form-invalid-feedback>

@@ -1,8 +1,18 @@
 export default [
   {
-    title: 'Home',
+    title: 'Dashboards',
     icon: 'HomeIcon',
-    route: 'dashboard-personal',
+    tag: '2',
     tagVariant: 'light-warning',
+    children: [
+      {
+        title: 'eCommerce',
+        route: 'dashboard-ecommerce',
+      },
+      {
+        title: 'Analytics',
+        route: 'dashboard-analytics',
+      },
+    ],
   },
 ]

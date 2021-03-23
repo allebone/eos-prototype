@@ -10,7 +10,7 @@
           <span>Please check the </span>
           <b-link
             class="alert-link"
-            href="#thisisdocslink"
+            href="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/documentation/guide/layout/page-layout-examples.html#layout-without-menu"
             target="blank"
           >Layout Without Navigation Menu documentation</b-link>
           <span> for more details.</span>

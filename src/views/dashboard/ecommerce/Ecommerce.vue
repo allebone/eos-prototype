@@ -1,7 +1,16 @@
 <template>
   <section id="dashboard-ecommerce">
     <b-row class="match-height">
-      <b-col>
+      <b-col
+        xl="4"
+        md="6"
+      >
+        <ecommerce-medal :data="data.congratulations" />
+      </b-col>
+      <b-col
+        xl="8"
+        md="6"
+      >
         <ecommerce-statistics :data="data.statisticsItems" />
       </b-col>
     </b-row>
@@ -91,6 +100,7 @@
 import { BRow, BCol } from 'bootstrap-vue'
 
 import { getUserData } from '@/auth/utils'
+import EcommerceMedal from './EcommerceMedal.vue'
 import EcommerceStatistics from './EcommerceStatistics.vue'
 import EcommerceRevenueReport from './EcommerceRevenueReport.vue'
 import EcommerceOrderChart from './EcommerceOrderChart.vue'
@@ -107,6 +117,7 @@ export default {
     BRow,
     BCol,
 
+    EcommerceMedal,
     EcommerceStatistics,
     EcommerceRevenueReport,
     EcommerceOrderChart,

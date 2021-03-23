@@ -4,23 +4,13 @@ export default [
     icon: 'HomeIcon',
     children: [
       {
-        title: 'Personal',
-        route: 'dashboard-personal',
-        icon: 'TabletIcon',
-      },
-      {
-        title: 'Mobile Program',
+        title: 'eCommerce',
         route: 'dashboard-ecommerce',
-        icon: 'TabletIcon',
+        icon: 'ShoppingCartIcon',
       },
       {
-        title: 'OMNI Analytics',
+        title: 'Analytics',
         route: 'dashboard-analytics',
-        icon: 'ActivityIcon',
-      },
-      {
-        title: 'Readiness Assessment',
-        route: 'dashboard-readiness',
         icon: 'ActivityIcon',
       },
     ],

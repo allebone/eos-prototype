@@ -12,6 +12,11 @@
       }
     }
   }
+  .breadcrumb-item + .breadcrumb-item {
+    &:before {
+      height: 20px;
+    }
+  }
 }
 
 /* Component Specific */

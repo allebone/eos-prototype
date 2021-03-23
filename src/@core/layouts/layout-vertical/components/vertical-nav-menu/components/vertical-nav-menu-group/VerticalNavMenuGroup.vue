@@ -1,6 +1,6 @@
 <template>
   <li
-    v-if="item.children.some(i => $can(item.action, item.resource))"
+    v-if="canViewVerticalNavMenuGroup(item)"
     class="nav-item has-sub"
     :class="{
       'open': isOpen,
@@ -13,7 +13,7 @@
       @click="() => updateGroupOpen(!isOpen)"
     >
       <feather-icon :icon="item.icon || 'CircleIcon'" />
-      <span class="menu-title text-truncate">{{ $t(item.title) }}</span>
+      <span class="menu-title text-truncate">{{ t(item.title) }}</span>
       <b-badge
         v-if="item.tag"
         pill
@@ -42,10 +42,10 @@
 <script>
 import { BLink, BBadge, BCollapse } from 'bootstrap-vue'
 import { resolveVerticalNavMenuItemComponent as resolveNavItemComponent } from '@core/layouts/utils'
+import { useUtils as useI18nUtils } from '@core/libs/i18n'
+import { useUtils as useAclUtils } from '@core/libs/acl'
 import VerticalNavMenuHeader from '../vertical-nav-menu-header'
 import VerticalNavMenuLink from '../vertical-nav-menu-link/VerticalNavMenuLink.vue'
-
-// import { ref } from '@vue/composition-api'
 
 // Composition Function
 import useVerticalNavMenuGroup from './useVerticalNavMenuGroup'
@@ -75,12 +75,21 @@ export default {
       updateIsActive,
     } = useVerticalNavMenuGroup(props.item)
 
+    const { t } = useI18nUtils()
+    const { canViewVerticalNavMenuGroup } = useAclUtils()
+
     return {
       resolveNavItemComponent,
       isOpen,
       isActive,
       updateGroupOpen,
       updateIsActive,
+
+      // ACL
+      canViewVerticalNavMenuGroup,
+
+      // i18n
+      t,
     }
   },
 }

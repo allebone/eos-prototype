@@ -39,7 +39,7 @@
             id="customer-name"
             v-model="customer.name"
             trim
-            placeholder="Bryan Allebone"
+            placeholder="John Doe"
           />
         </b-form-group>
 

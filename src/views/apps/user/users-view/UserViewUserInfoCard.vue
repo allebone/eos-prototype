@@ -1,5 +1,5 @@
 <template>
-  <b-card class="border-primary">
+  <b-card>
 
     <b-row>
 
@@ -15,7 +15,8 @@
             :src="userData.avatar"
             :text="avatarText(userData.fullName)"
             :variant="`light-${resolveUserRoleVariant(userData.role)}`"
-            size="124px"
+            size="104px"
+            rounded
           />
           <div class="d-flex flex-column ml-1">
             <div class="mb-1">
@@ -48,12 +49,16 @@
               variant="light-primary"
               rounded
             >
+              <feather-icon
+                icon="DollarSignIcon"
+                size="18"
+              />
             </b-avatar>
             <div class="ml-1">
               <h5 class="mb-0">
-                19.4 Years
+                23.3k
               </h5>
-              <small>Years of Federal Service</small>
+              <small>Monthly Sales</small>
             </div>
           </div>
 
@@ -62,18 +67,22 @@
               variant="light-success"
               rounded
             >
-             </b-avatar>
+              <feather-icon
+                icon="TrendingUpIcon"
+                size="18"
+              />
+            </b-avatar>
             <div class="ml-1">
               <h5 class="mb-0">
-                2 Years
+                $99.87k
               </h5>
-              <small>Time In Grade</small>
+              <small>Annual Profit</small>
             </div>
           </div>
         </div>
       </b-col>
 
-      <!-- Rght Col: Table -->
+      <!-- Right Col: Table -->
       <b-col
         cols="12"
         xl="6"
@@ -109,7 +118,7 @@
                 icon="StarIcon"
                 class="mr-75"
               />
-              <span class="font-weight-bold">Roles</span>
+              <span class="font-weight-bold">Role</span>
             </th>
             <td class="pb-50 text-capitalize">
               {{ userData.role }}

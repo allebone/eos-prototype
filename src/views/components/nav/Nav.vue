@@ -51,6 +51,7 @@ export default {
   components: {
     BRow,
     BCol,
+
     NavBasic,
     NavBorder,
     NavFill,

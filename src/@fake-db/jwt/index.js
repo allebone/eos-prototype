@@ -5,8 +5,8 @@ const data = {
   users: [
     {
       id: 1,
-      fullName: 'Bryan Allebone',
-      username: 'balleb',
+      fullName: 'John Doe',
+      username: 'johndoe',
       password: 'admin',
       // eslint-disable-next-line global-require
       avatar: require('@/assets/images/avatars/13-small.png'),

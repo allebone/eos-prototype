@@ -10,11 +10,11 @@
       <div class="alert-body">
         <p>
           <strong>Info: </strong>
-          <span>This layout is used in Authentication & Miscellaneous page. Please check the </span>
+          <span>This layout is used in Authentication &amp; Miscellaneous page. Please check the </span>
           <b-link
             class="alert-link"
-            href="#thisisdocslink"
-            target="blank"
+            href="https://pixinvent.com/demo/vuexy-vuejs-admin-dashboard-template/documentation/guide/layout/page-layout-examples.html#layout-blank"
+            target="_blank"
           >Layout Blank documentation</b-link>
           <span> for more details.</span>
         </p>
@@ -28,7 +28,8 @@ import { BAlert, BLink } from 'bootstrap-vue'
 
 export default {
   components: {
-    BAlert, BLink,
+    BAlert,
+    BLink,
   },
 }
 </script>

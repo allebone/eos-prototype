@@ -1,4 +1,4 @@
-import { ref, computed } from '@vue/composition-api'
+import { ref, computed, watch } from '@vue/composition-api'
 import store from '@/store'
 
 export default function useVerticalLayout(navbarType, footerType) {
@@ -33,8 +33,17 @@ export default function useVerticalLayout(navbarType, footerType) {
     return classes
   })
 
+  // ------------------------------------------------
+  // Resize handler for Breakpoint
+  // ------------------------------------------------
+  watch(currentBreakpoint, val => {
+    isVerticalMenuActive.value = val === 'xl'
+  })
+
   const resizeHandler = () => {
-    isVerticalMenuActive.value = window.innerWidth >= 1200
+    // ? This closes vertical menu when title bar is shown/hidden in mobile browsers.
+    // ? We will watch for breakpoint to overcome this issue
+    // isVerticalMenuActive.value = window.innerWidth >= 1200
 
     // ! You can use store getter to get breakpoint
     if (window.innerWidth >= 1200) currentBreakpoint.value = 'xl'

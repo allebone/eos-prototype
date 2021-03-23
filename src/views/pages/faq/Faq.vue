@@ -45,89 +45,25 @@
       >
 
         <!-- payment tab -->
-        <b-tab active>
+        <b-tab
+          v-for="(categoryObj, categoryName, index) in faqData"
+          :key="categoryName"
+          :active="!index"
+        >
 
           <!-- title -->
           <template #title>
             <feather-icon
-              icon="CreditCardIcon"
+              :icon="categoryObj.icon"
               size="18"
               class="mr-1"
             />
-            <span class="font-weight-bold">Payment</span>
+            <span class="font-weight-bold">{{ categoryObj.title }}</span>
           </template>
 
-          <faq-question-answer :options="faqData.payment" />
+          <faq-question-answer :options="categoryObj" />
         </b-tab>
         <!--/ payment tab -->
-
-        <!-- delivery tab -->
-        <b-tab>
-
-          <!-- title -->
-          <template #title>
-            <feather-icon
-              icon="ShoppingBagIcon"
-              size="18"
-              class="mr-1"
-            />
-            <span class="font-weight-bold">Delivery</span>
-          </template>
-
-          <faq-question-answer :options="faqData.delivery" />
-        </b-tab>
-        <!--/ delivery tab -->
-
-        <!-- cancellation and return -->
-        <b-tab>
-
-          <!-- title -->
-          <template #title>
-            <feather-icon
-              icon="RefreshCwIcon"
-              size="18"
-              class="mr-1"
-            />
-            <span class="font-weight-bold">Cancellation & Return</span>
-          </template>
-
-          <faq-question-answer :options="faqData.cancellationReturn" />
-        </b-tab>
-        <!--/ cancellation and return -->
-
-        <!-- my order -->
-        <b-tab>
-
-          <!-- title -->
-          <template #title>
-            <feather-icon
-              icon="PackageIcon"
-              size="18"
-              class="mr-1"
-            />
-            <span class="font-weight-bold">My Orders</span>
-          </template>
-
-          <faq-question-answer :options="faqData.myOrders" />
-        </b-tab>
-        <!--/ my order -->
-
-        <!-- Product & Services -->
-        <b-tab>
-
-          <!-- title -->
-          <template #title>
-            <feather-icon
-              icon="SettingsIcon"
-              size="18"
-              class="mr-1"
-            />
-            <span class="font-weight-bold">Product & Services</span>
-          </template>
-
-          <faq-question-answer :options="faqData.productServices" />
-        </b-tab>
-        <!-- Product & Services -->
 
         <!-- sitting lady image -->
         <template #tabs-end>
@@ -224,8 +160,18 @@ export default {
       faqData: {},
     }
   },
-  created() {
-    this.$http.get('/faq/data').then(res => { this.faqData = res.data })
+  watch: {
+    faqSearchQuery: {
+      immediate: true,
+      handler() {
+        this.fetchData()
+      },
+    },
+  },
+  methods: {
+    fetchData() {
+      this.$http.get('/faq/data', { params: { q: this.faqSearchQuery } }).then(res => { this.faqData = res.data })
+    },
   },
 }
 </script>
