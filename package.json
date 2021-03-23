@@ -1,6 +1,6 @@
 {
   "name": "eos-prototype",
-  "version": "0.1",
+  "version": "6.0.4",
   "private": true,
   "scripts": {
     "serve": "vue-cli-service serve",
